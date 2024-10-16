@@ -1,0 +1,73 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Container for the content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Styling */
+.section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* About Section */
+.about {
+    background-color: #f9f9f9;
+}
+
+/* New Updates Section */
+.new-updates {
+    background-color: #e9f7ef;
+}
+
+/* Heading Styles */
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Paragraph Styles */
+.section p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Box Layout for New Updates */
+.update-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .section {
+        padding: 15px;
+    }
+    .section h2 {
+        font-size: 20px;
+    }
+    .section p {
+        font-size: 14px;
+    }
+}
