@@ -1,0 +1,65 @@
+    /* styles.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif; /* Change to your preferred font */
+    background-color: #4CAF50; /* Green background */
+    color: #333; /* Dark text color for contrast */
+    line-height: 1.6;
+}
+
+/* Header Style */
+header {
+    background-color: #388E3C; /* Darker green for the header */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section Style */
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    color: #FFFFFF; /* White text for headings */
+}
+
+/* Footer Style */
+footer {
+    background-color: #388E3C; /* Darker green for the footer */
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Links Style */
+a {
+    color: #003366; /* White links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* FAQ Style */
+.faq {
+    margin-bottom: 15px;
+    border: 1px solid #4CAF50; /* Green border */
+    padding: 10px;
+    border-radius: 5px;
+}
