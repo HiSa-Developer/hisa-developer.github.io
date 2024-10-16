@@ -2,21 +2,20 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9RS0P8YD9X"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-9RS0P8YD9X');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9RS0P8YD9X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-9RS0P8YD9X');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AFFILIATE JOINING FORM</title>
+    <title>Affiliate Joining Form</title>
     <style>
         /* Background and container styling */
         body {
-            background: linear-gradient(135deg, #f0f8ff, #e6e6fa); /* Light gradient background */
+            background: linear-gradient(135deg, #f0f8ff, #e6e6fa);
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -31,12 +30,12 @@
         }
         h1 {
             text-align: center;
-            color: #2c3e50; /* Dark blue */
+            color: #2c3e50;
         }
         label {
             display: block;
             margin-top: 15px;
-            color: #34495e; /* Dark gray */
+            color: #34495e;
         }
         input[type="text"], input[type="email"], select, textarea {
             width: 100%;
@@ -50,7 +49,7 @@
             height: 100px;
         }
         .submit-btn {
-            background-color: #16a085; /* Teal button */
+            background-color: #16a085;
             color: white;
             padding: 12px 20px;
             text-align: center;
@@ -70,29 +69,29 @@
 <body>
 
     <div class="feedback-container">
-        <h1>AFFILIATE JOINING FORM</h1>
+        <h1>Affiliate Joining Form</h1>
         <form action="https://formsubmit.co/b5790773ecd7554e87f3236a8da87ad7" method="post">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" autocomplete="name" required>
 
             <label for="email">Email ID:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" required>
             
-            <label for="Country">Country Name:</label>
-            <input type="text" id="Country" name="Country" placeholder="Enter your Country" required>
+            <label for="country">Country Name:</label>
+            <input type="text" id="country" name="country" placeholder="Enter your country" autocomplete="country-name" required>
             
-            <label for="rating">Payment Receiving Mode:</label>
-            <select id="rating" name="rating">
+            <label for="payment_mode">Payment Receiving Mode:</label>
+            <select id="payment_mode" name="payment_mode" required>
                 <option value="">Choose a mode</option>
                 <option value="Paypal">Paypal</option>
-                <option value="Google pay">Google Pay</option>
-          </select>
+                <option value="Google Pay">Google Pay</option>
+            </select>
 
-            <label for="comments">Additional comments:</label>
-            <textarea id="comments" name="comments" placeholder="Any other information" required></textarea>
-<h3>"After submitting this form, our team will contact you via email within 24 hours. You will receive an affiliate certificate and your HiSa code."
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" placeholder="Any other information"></textarea>
 
-</h3>
+            <p>After submitting this form, our team will contact you via email within 24 hours. You will receive an affiliate certificate and your HiSa code.</p>
+
             <button type="submit" class="submit-btn">Join Affiliate Program</button>
         </form>
     </div>
